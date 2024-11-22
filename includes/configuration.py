@@ -4,6 +4,7 @@ storage_acc_name = 'formula1gen2'
 raw_folder_path = 'abfss://raw-formula1-container@formula1gen2.dfs.core.windows.net'
 processed_folder_path = 'abfss://processed-formula1-container@formula1gen2.dfs.core.windows.net'
 presentation_folder_path = 'abfss://presentation-formula1-container@formula1gen2.dfs.core.windows.net'
+demo_folder_path = 'abfss://demo-container@formula1gen2.dfs.core.windows.net'
 
 # SAS Token
 # dbutils.secrets.help()

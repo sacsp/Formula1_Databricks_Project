@@ -12,7 +12,7 @@ race_results_df = spark.read.parquet(f"{presentation_folder_path}/race_results")
 
 # COMMAND ----------
 
-display(race_results_df)
+# display(race_results_df)
 
 # COMMAND ----------
 
@@ -23,7 +23,7 @@ team_standings_df = race_results_df\
 
 # COMMAND ----------
 
-display(team_standings_df.filter('race_year == 2020'))
+# display(team_standings_df.filter('race_year == 2020'))
 
 # COMMAND ----------
 
@@ -33,7 +33,7 @@ final_df = team_standings_df.withColumn('rank', rank().over(team_rank_spec))
 
 # COMMAND ----------
 
-display(final_df.filter('race_year == 2020' ))
+# display(final_df.filter('race_year == 2020' ))
 
 # COMMAND ----------
 

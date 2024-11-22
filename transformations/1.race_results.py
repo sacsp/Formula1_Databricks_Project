@@ -64,7 +64,7 @@ final_df = race_results_df.select("race_year", "race_name", "race_date", "circui
 
 # COMMAND ----------
 
-display(final_df.filter("race_year == 2020 and race_name == 'Abu Dhabi Grand Prix'").orderBy(final_df.points.desc()))
+# display(final_df.filter("race_year == 2020 and race_name == 'Abu Dhabi Grand Prix'").orderBy(final_df.points.desc()))
 
 # COMMAND ----------
 
